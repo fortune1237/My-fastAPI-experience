@@ -20,6 +20,6 @@ class Item(BaseModel):
   tax: float | None = None
 
 
-# class User(BaseModel):
-#   user_name: str
-#   full_name: str | None = None
+class User(BaseModel):
+  user_name: str
+  full_name: str | None = None
